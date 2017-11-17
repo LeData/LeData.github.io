@@ -18,9 +18,10 @@ $text-color:       #111;
 $background-color: #fdfdfd;
 $brand-color:      #2a7ae2;
 
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
+$color-grey:       #828282;
+$color-purple:	   #4d004d;
+$color-grey-light: lighten($color-grey, 40%);
+$color-grey-dark:  darken($color-grey, 25%);
 
 // Width of the content area
 $content-width:    800px;
@@ -28,7 +29,7 @@ $content-width:    800px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
-
+$hero-image:		"../images/Math_shelf.jpg";
 
 // Use media queries like this:
 // @include media-query($on-palm) {

@@ -2,22 +2,56 @@
 layout: default
 ---
 
-<div class="home">
+<section id="hero-spot" class="hero-spot">
+  
+  <h1>Hire a scientist, get one step ahead.</h1>
+  <h2>Get an unusual mix of pure and applied science in your team. Ideal for ambitious projects</h2>
 
-  <h1 class="page-heading">Posts</h1>
+</section>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+<section id="tutorial", class="tutorial">
+  <h2>
+    Have you been searching for someone who has:
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
+  </h2>
+   <ul class="tabs">
+     <li>
+        <a href="#Independence" class="selected">Independence/Autonomy</a>
+     </li>
+     <li>
+       <a href="#Creativity">Creativity/Research</a>
+     </li>
+     <li>
+       <a href="#Analysis">Analysis</a>
+     </li>
+     <li>
+       <a href="#Social">Social/ Team Player</a>
+     </li>
+   </ul>
+
+   <!-- ### Start of tutorials -->
+  <ul id="Independence" class="tutorial-list wrapper active">
+    <li id="Independence-1" class="image-right">
+      <h1>carried projects alone</h1>
+      <p>Not only I have a PhD, which shows my ability to 
+      conduct long and tedious projects to fruition, I also
+      was head of sales for Festka, a internationally renown
+      bicycle manufacturer. Part of this work was establishing
+      a network of partners to sell our product around the world.
+      </p>
+
+      <p class="details">Note that due to some unfortunate incident, part of my research was never published.</p>
+    </li>
   </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <ul id="Creativity" class="tutorial-list wrapper">
+    <li id="Creativity-1" class="image-right">
+      <h1>done extensive research</h1>
+      <p>Check out my <a href="https://github.com">research papers</a>. I have worked on algebraic structures called Higher Category Theory.</p>
 
-</div>
+      <p class="details">Note that due to some unfortunate incident, part of my research was never published.</p>
+    </li>
+  </ul>
+
+
+</section>
