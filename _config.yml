@@ -6,16 +6,17 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: The Path Of D
+title: 'LeData.Science'
 email: d.majard@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Bringing more science to your company. Hire me to become more data driven and make decisions
   that will impact your success for good!
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://www.thepathofd.com" # the base hostname & protocol for your site
+url: "http://www.ledata.science" # the base hostname & protocol for your site
 twitter_username: Mahrard
-github_username:  Mahrard
+github_username:  LeData
 kaggle_username:  thepathofd
+linkedin_username: dany-majard
 
 # Build settings
 markdown: kramdown
