@@ -24,6 +24,10 @@
 //     }
 // }
 
+#experience, #about {
+    background-color: $color-grey-light;
+}
+
 .text-center{
     text-align: center;
 }
@@ -72,12 +76,34 @@
 .main-page {
     h1{
         margin-top: 15px;
+        font-size: 40px;
         font-weight: 800;
+        color: $color-grey-dark;
     }
     h2{
         color: $color-grey;
         font-size: 18px;
     }
+}
+
+.job-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.job-box{
+    display: block;
+    margin:10px;
+    padding: 10px;
+    
+    .icon-left {
+        margin: 0 30px;      
+    }
+}
+
+.clear {
+    clear: both;
 }
 
 .skill-wrapper {
@@ -88,22 +114,51 @@
 }
 
 @media only screen and (min-width:550px) {
-  .skill-wrapper {
+
+    .icon-left {
+        float: left;
+    }
+
+    .icon-right {
+        float: right;
+    }
+
+    .skill-wrapper {
     flex-wrap: nowrap;
   }
 }
 
 .skill-box {
+    display: block;
     margin:10px;
+    padding: 10px;
+
+    h2 {
+        color: $color-grey-dark;
+        font-size: 24px;
+        font-weight: 800;
+        padding-top: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
 
     p {
         display:block;
+        margin-top: 10px;
+        padding-top: 10px;
     }
 
     i {
-        margin: 5px;
+        margin: 10px;
+        width: 200px;
+        height: 75px;
+    }
+
+    svg {
+        fill: $color-grey-dark;        
     }
 }
+
 
 // .site-nav {
 //     float: right;

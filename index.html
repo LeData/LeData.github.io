@@ -55,25 +55,11 @@ layout: default
 </section>
 
 
-<section class="main-page wrapper" id="about">
-  <div class="wrapper text-center">
-    <div>
-      <div class="space-line"></div>
-      <h1><span>Dany Majard</span></h1>
-      <p>
-        <img src="images\face.png" alt="" class="image-round">
-      </p>
-      <div>
-        <h2><span>A pure scientist, a speaker and a technician mixed in a single person.</span></h2>
-      </div>
-    </div>
-  </div>  
-</section>
 
 <section class="main-page wrapper" id="skills">
   <div class="text-center">
     <div class="space-line"></div>
-    <h1><span>Expertise</span></h1>
+    <h1>Expertise</h1>
   </div>
   <div class="skill-wrapper text-center">
 
@@ -81,8 +67,8 @@ layout: default
       <h2>Analysis</h2>
       <i>{% include icon-r.svg %}</i>
       <i>{% include icon-python.svg %}</i>
-      <i>{% include icon-aws.svg %}</i>
-      <p>The base of every improvement is a good grasp on the realities of the company. Being able to extract meaning out of raw data is at the core of the job. With tools such as R, Python Hadoop and Amazon Web Services, there shoul dbe no secret left.</p>
+      <i>{% include icon-aws2.svg %}</i>
+      <p>The base of every improvement is a good grasp on the realities of the company. Being able to extract meaning out of raw data is at the core of the job. With tools such as R, Python Hadoop and Amazon Web Services, there should be no secret left.</p>
     </div>
 
     <div class="skill-box">
@@ -114,58 +100,102 @@ layout: default
   </div>
 </section>
 
-<section class="main-page wrapper" id="experience">
-   <div >
+<section id="experience">
+  <div class="main-page wrapper" >  
     <div class="text-center">
       <div class="space-line"></div>
       <h1><span>Experience</span></h1>
     </div>
+    <div class="job-wrapper text-center">
+      <div class="job-box">
+        <div class="icon-left">
+          <i>{% include work-festka.svg %}</i>
+        </div>
+        <div>
+          <h2>Director of Sales</h2>
+          <h3>2014-2016</h3>
+          <p>Managed the international sales of a bybling manufacturer in the high-end/luxury sector. Built a network of 25 partnering stores around the world, did all the CRM and established enhanced procedures for data collection and analysis.</p>
+        </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+    <div class="job-wrapper text-center">
+      <div class="job-box">
+        <div class="icon-right">
+          <i>{% include work-masaryk.svg %}</i>
+        </div>
+        <div>
+          <h2>Post-Doctorate Fellow</h2>
+          <h3>2012-2014</h3>
+          <p>Research position at the Mathematics Department, part of the Eduard Cech grant program. Continued study on the cubical higher categories and their relationships to the classification of cobordisms.</p>
+        </div>
+      </div>
+      <div class="clear"></div>
+    </div>
   </div>
 </section>
 
-<section class="main-page wrapper" id="portfolio">
-   <div class="wrapper text-center">
+<section class="main-page wrapper" id="education">
+ <div class="text-center">
+    <div class="space-line"></div>
+    <h1><span>Education</span></h1>
+  </div>
+  <div class="skill-wrapper text-center">
+    <div class="skill-box">
+      <h2>Specialization</h2>
+      <i>{% include uni-washington.svg %}</i>
+      <h3>Data Science at scale</h3>
+      <p>Coursera studies not centered around any particular language with courses on Databases and Relational Algebra, Principles of Data Vizualization, Ethics of Data Science and Paralell Computing on the cloud for Big Data, concluded by a Capstone project for the city of Detroit on blight reduction through demolition forecasting.</p>
+    </div>
+    <div class="skill-box">
+      <h2>Specialization</h2>
+      <i>{% include uni-michigan.svg %}</i>
+      <h3>Applied Data Science with Python</h3>
+      <p>Coursera studies centered on Python with courses in Machine Learning models, Natural Language Processing and Social Network Analysis.</p>
+    </div>
+    <div class="skill-box">
+      <h2>Specialization</h2>
+      <i>{% include uni-hopkins.svg %}</i>
+      <h3>Data Science</h3>
+      <p>Coursera studies centered on R with courses on Data Visualization, Text Mining ...</p>
+    </div>
+  </div>
+  <div class="skill-wrapper text-center">
+    <div class="skill-box">
+      <h2>PhD</h2>
+      <i>{% include uni-kansas.svg %}</i>
+      <h3>Pure Mathematics</h3>
+      <p>Doctoral studies, with an emphasis on higher dimensional algebraic structures Topological Quantum Field Theories. Higher Category Theory is also connected to quantum computing and linguistics, but the thesis' focus was on topology and quantum gravity.</p>
+    </div>
+    <div class="skill-box">
+      <h2>MSc</h2>
+      <i>{% include uni-luminy.svg %}</i>
+      <h3>Theoretical Physics</h3>
+      <p>General studies, with a specialization in mathematical structures of the standard model. Couses includes Special and General Relativity, Statistical Mechanics, Quantum Physics, Group Theory, Classical Mechanics and Lie Algebras...</p>
+    </div>
+    <div class="skill-box">
+      <h2>DUT</h2>
+      <i>{% include uni-reims.svg %}</i>
+      <h3>Physical Measurements</h3>
+      <p>Technical studies in physical and chemical measurements. Very extensive - includes topics such as Programming, Fluid Dynamics, Thermodynamics, Optics, Acoustics, Organic and Minereal Chemistry...</p>
+    </div>
+  </div>
+</section>
+
+<section class="main-page" id="about">
+  <div class="wrapper text-center">
     <div>
       <div class="space-line"></div>
-      <h1><span>Education</span></h1>
-    </div>
-    <div>
-      <div>
-        <h2>Specializations: Data Sciences</h2>
-        <span><img src=".\images\coursera2.jpg"></span>
-        <p>Subject: Higher Category Theory</p>
-      </div>
-      <div>
-        <h2>PhD: Mathematics</h2>
-        <span><img src=".\images\Kstate1.jpg"></span>
-        <p></p>
-      </div>
-      <div>
-        <h2>MSc: Theoretical and Mathematical Physics</h2>
-        <span><img src=".\images\cppm.jpg" alt=""></span>
-        <p>Thesis: Non-associativity in the standard model</p>
-      </div>
-      <div>
-        <h2>DUT : Physical Measurements</h2>
-        <span></span>
-        <p></p>
-      </div>
-    </div>
-  </div>
-</section>
-
-  
-   <!-- ### Start of tutorials 
-  <ul id="Independence" class="tutorial-list wrapper active">
-    <li id="Independence-1" class="image-right">
-      <h1>carried projects alone</h1> 
+      <h1><span>Dany Majard</span></h1>
       <p>
+        <img src="images\face.png" alt="" class="image-round">
       </p>
-
-      <p class="details">Note that due to some unfortunate incident, part of my research was never published.</p>
-    </li>
-  </ul>-->
-
+      <div>
+        <h2><span>A pure scientist, a speaker and a technician mixed in a single person.</span></h2>
+      </div>
+    </div>
+  </div>  
+</section>
 
   <script src="/js/jquery.js"></script>
 <script>window.slides = {"bootstrap":"Bootstrap","yeoman":"Yeoman","facebookdesign":"Facebook Design","foundation":"Foundation","ghtraining":"GitHub Training","adobeos":"Adobe Open Source","jekyllrb":"Jekyll","electron":"Electron","semanticui":"Semantic UI","microsoft":"Microsoft on GitHub"}</script>
