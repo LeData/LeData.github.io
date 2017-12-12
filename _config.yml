@@ -26,3 +26,12 @@ sass:
         - _sass
         - node_modules
 exclude: []
+
+#gems:
+#  - jekyll-jupyter-notebook
+#
+# then in the html:
+#Remember to run "$chcp 65001" in the shell before running jekyll serve.
+#{::nomarkdown}
+#{% jupyter_notebook Detroit-Blight-1.ipynb %}
+#{:/nomarkdown}
