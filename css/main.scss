@@ -3,7 +3,8 @@
 ---
 @charset "utf-8";
 
-
+//For bootstrap
+$custom-font-size: 20px;
 
 // Our variables
 $base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -14,11 +15,12 @@ $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
+$brand-color: 	   #4d004d;
+$primary:		   $brand-color;
 $text-color:       #111;
 $background-color: white;
 
 $color-grey:       #828282;
-$color-purple:	   #4d004d;
 $color-grey-light: lighten($color-grey, 40%);
 $color-grey-dark:  darken($color-grey, 25%);
 
@@ -51,5 +53,20 @@ $hero-image:		"../images/Hero-purple.jpg";
 @import
         "base",
         "layout",
-        "syntax-highlighting"
+        "syntax-highlighting",
+        "variables",
+		"bootstrap/scss/bootstrap"
 ;
+
+
+//** Background color for `<body>`.
+$body-bg:               #fff !default;
+//** Global text color on `<body>`.
+$text-color:            $gray-dark !default;
+
+//** Global textual link color.
+$link-color:            $brand-primary !default;
+//** Link hover color set via `darken()` function.
+$link-hover-color:      darken($link-color, 15%) !default;
+//** Link hover decoration.
+$link-hover-decoration: underline !default;

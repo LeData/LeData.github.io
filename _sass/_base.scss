@@ -8,7 +8,12 @@ dl, dd, ol, ul, figure {
     padding: 0;
 }
 
-
+/**
+ * For Bootstrap
+ */
+.content {
+  font-size: $custom-font-size;
+}
 
 /**
  * Basic styling
@@ -95,11 +100,11 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-    color: $color-purple;
+    color: $brand-color;
     text-decoration: none;
 
     &:visited {
-        color: darken($color-purple, 15%);
+        color: darken($brand-color, 15%);
     }
 
     &:hover {
@@ -154,11 +159,6 @@ pre {
     }
 }
 
-nav {
-    display: inline-block;
-}
-
-
 /**
  * Wrapper
  */
@@ -177,6 +177,11 @@ nav {
         padding-right: $spacing-unit / 2;
         padding-left: $spacing-unit / 2;
     }
+}
+
+.container {
+    
+    @extend %clearfix;
 }
 
 
