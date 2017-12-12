@@ -25,6 +25,9 @@ body {
     font-kerning: normal;
 }
 
+section:nth-child(even){
+    background-color: $color-grey-light;
+}
 
 
 /**
@@ -96,7 +99,7 @@ a {
     text-decoration: none;
 
     &:visited {
-        color: darken($brand-color, 15%);
+        color: darken($color-purple, 15%);
     }
 
     &:hover {
@@ -204,7 +207,7 @@ nav {
         vertical-align: middle;
 
         path {
-            fill: $color-grey;
+            fill: white;
         }
     }
 }

@@ -6,18 +6,14 @@ layout: default
   
   <h1>LeData.science</h1>
   <h2>Hire a Scientist, get one step ahead</h2>
-
-</section>
-
-<section class="nav-wrapper">
-  <div>
-    <nav class=>
-      <ul class="nav-social">
-        <li class="nav-social"><a href="" title="link to projects" class="">Projects</a></li>
+  <div class="nav-wrapper">
+    <nav>
+      <ul>
+        <li class="nav-social"><a href="./blog" title="link to projects" class="">Projects</a></li>
       </ul>
     </nav>
     <nav>
-      <ul class="nav-social">
+      <ul>
 
         {% if site.github_username %}
         <li class='nav-social'>
@@ -51,57 +47,67 @@ layout: default
       </ul>
     </nav>
   </div>
-
 </section>
 
 
 
-<section class="main-page wrapper" id="skills">
-  <div class="text-center">
-    <div class="space-line"></div>
-    <h1>Expertise</h1>
-  </div>
-  <div class="skill-wrapper text-center">
-
-    <div class="skill-box">
-      <h2>Analysis</h2>
-      <i>{% include icon-r.svg %}</i>
-      <i>{% include icon-python.svg %}</i>
-      <i>{% include icon-aws2.svg %}</i>
-      <p>The base of every improvement is a good grasp on the realities of the company. Being able to extract meaning out of raw data is at the core of the job. With tools such as R, Python Hadoop and Amazon Web Services, there should be no secret left.</p>
-    </div>
-
-    <div class="skill-box">
-      <h2>Communication</h2>
-      <i>{% include icon-tableau.svg %}</i>
-      <i>{% include icon-matplotlib.svg %}</i>
-      <i>{% include icon-jupyter.svg %}</i>
-      <p>Being able to carry that meaning across to those whose life is most impacted by it is crucial to every problem solving. Combined experience in teaching, showcasing research results and company products makes me a clear, concise and thorough communicator.</p>
+<section id="intro">
+  <div class="main-page wrapper">
+    <div class="text-center">
+      <div class="space-line"></div>
+      <h1>Dany Majard</h1>
+      <img src="images\face.png" alt="" class="image-round">
+      <h2>A pure scientist, a speaker and a technician mixed in a single person.</h2>
     </div>
   </div>
-  <div class="skill-wrapper text-center">
+</section>
 
-    <div class="skill-box">
-      <h2>Research</h2>
-      <i>{% include icon-pencil.svg %}</i>
-      <i>{% include icon-latex.svg %}</i>
-      <i>{% include icon-book.svg %}</i>
-      <p>The part of data science that is the least instagram worthy but which brings the most mileage to your investment is research. With experience in pure physics and mathematics in academia, there is little challenge I am unvilling to undertake.</p>
+<section id="skills">
+  <div class="main-page wrapper">
+    <div class="text-center">
+      <div class="space-line"></div>
+      <h1>Expertise</h1>
     </div>
+    <div class="skill-wrapper text-center">
+      <div class="skill-box">
+        <h2>Analysis</h2>
+        <i>{% include icon-r.svg %}</i>
+        <i>{% include icon-python.svg %}</i>
+        <i>{% include icon-aws2.svg %}</i>
+        <p>The base of every improvement is a good grasp on the realities of the company. Being able to extract meaning out of raw data is at the core of the job. With tools such as R, Python Hadoop and Amazon Web Services, there should be no secret left.</p>
+      </div>
 
-    <div class="skill-box">
-      <h2>Leadership</h2>
-      <i>{% include icon-basecamp.svg %}</i>
-      <i>{% include icon-pipefy.svg %}</i>
-      <i>{% include icon-github.svg %}</i>
-      <p>bla bla bla bla blakblfl hasdjfhsa fkjashf sadkjgfaskjdfgkjasdhfasdjfaksj fkj kjasg fksagf ks fsjlhs jhsl shhiughiuergfn;ljsdvuyiugr ,ajvbkuhg iqug fiq3hli3ho yqoiy tglfgoq</p>
+      <div class="skill-box">
+        <h2>Communication</h2>
+        <i>{% include icon-tableau.svg %}</i>
+        <i>{% include icon-matplotlib.svg %}</i>
+        <i>{% include icon-jupyter.svg %}</i>
+        <p>Being able to carry that meaning across to those whose life is most impacted by it is crucial to every problem solving. Combined experience in teaching, showcasing research results and company products makes me a clear, concise and thorough communicator.</p>
+      </div>
     </div>
+    <div class="skill-wrapper text-center">
 
+      <div class="skill-box">
+        <h2>Research</h2>
+        <i>{% include icon-pencil.svg %}</i>
+        <i>{% include icon-latex.svg %}</i>
+        <i>{% include icon-book.svg %}</i>
+        <p>The part of data science that is the least instagram worthy but which brings the most mileage to your investment is research. With experience in pure physics and mathematics in academia, there is little challenge I am unvilling to undertake.</p>
+      </div>
+
+      <div class="skill-box">
+        <h2>Leadership</h2>
+        <i>{% include icon-basecamp.svg %}</i>
+        <i>{% include icon-pipefy.svg %}</i>
+        <i>{% include icon-github.svg %}</i>
+        <p>bla bla bla bla blakblfl hasdjfhsa fkjashf sadkjgfaskjdfgkjasdhfasdjfaksj fkj kjasg fksagf ks fsjlhs jhsl shhiughiuergfn;ljsdvuyiugr ,ajvbkuhg iqug fiq3hli3ho yqoiy tglfgoq</p>
+      </div>
+    </div>
   </div>
 </section>
 
 <section id="experience">
-  <div class="main-page wrapper" >  
+  <div class="main-page wrapper">  
     <div class="text-center">
       <div class="space-line"></div>
       <h1><span>Experience</span></h1>
@@ -135,67 +141,55 @@ layout: default
   </div>
 </section>
 
-<section class="main-page wrapper" id="education">
- <div class="text-center">
-    <div class="space-line"></div>
-    <h1><span>Education</span></h1>
-  </div>
-  <div class="skill-wrapper text-center">
-    <div class="skill-box">
-      <h2>Specialization</h2>
-      <i>{% include uni-washington.svg %}</i>
-      <h3>Data Science at scale</h3>
-      <p>Coursera studies not centered around any particular language with courses on Databases and Relational Algebra, Principles of Data Vizualization, Ethics of Data Science and Paralell Computing on the cloud for Big Data, concluded by a Capstone project for the city of Detroit on blight reduction through demolition forecasting.</p>
+<section id="education">
+  <div class="main-page wrapper">
+    <div class="text-center">
+      <div class="space-line"></div>
+      <h1><span>Education</span></h1>
     </div>
-    <div class="skill-box">
-      <h2>Specialization</h2>
-      <i>{% include uni-michigan.svg %}</i>
-      <h3>Applied Data Science with Python</h3>
-      <p>Coursera studies centered on Python with courses in Machine Learning models, Natural Language Processing and Social Network Analysis.</p>
+    <div class="skill-wrapper text-center">
+      <div class="skill-box">
+        <h2>Specialization</h2>
+        <i>{% include uni-washington.svg %}</i>
+        <h3>Data Science at scale</h3>
+        <p>Coursera studies not centered around any particular language with courses on Databases and Relational Algebra, Principles of Data Vizualization, Ethics of Data Science and Paralell Computing on the cloud for Big Data, concluded by a Capstone project for the city of Detroit on blight reduction through demolition forecasting.</p>
+      </div>
+      <div class="skill-box">
+        <h2>Specialization</h2>
+        <i>{% include uni-michigan.svg %}</i>
+        <h3>Applied Data Science with Python</h3>
+        <p>Coursera studies centered on Python with courses in Machine Learning models, Natural Language Processing and Social Network Analysis.</p>
+      </div>
+      <div class="skill-box">
+        <h2>Specialization</h2>
+        <i>{% include uni-hopkins.svg %}</i>
+        <h3>Data Science</h3>
+        <p>Coursera studies centered on R with courses on Data Visualization, Text Mining ...</p>
+      </div>
     </div>
-    <div class="skill-box">
-      <h2>Specialization</h2>
-      <i>{% include uni-hopkins.svg %}</i>
-      <h3>Data Science</h3>
-      <p>Coursera studies centered on R with courses on Data Visualization, Text Mining ...</p>
-    </div>
-  </div>
-  <div class="skill-wrapper text-center">
-    <div class="skill-box">
-      <h2>PhD</h2>
-      <i>{% include uni-kansas.svg %}</i>
-      <h3>Pure Mathematics</h3>
-      <p>Doctoral studies, with an emphasis on higher dimensional algebraic structures Topological Quantum Field Theories. Higher Category Theory is also connected to quantum computing and linguistics, but the thesis' focus was on topology and quantum gravity.</p>
-    </div>
-    <div class="skill-box">
-      <h2>MSc</h2>
-      <i>{% include uni-luminy.svg %}</i>
-      <h3>Theoretical Physics</h3>
-      <p>General studies, with a specialization in mathematical structures of the standard model. Couses includes Special and General Relativity, Statistical Mechanics, Quantum Physics, Group Theory, Classical Mechanics and Lie Algebras...</p>
-    </div>
-    <div class="skill-box">
-      <h2>DUT</h2>
-      <i>{% include uni-reims.svg %}</i>
-      <h3>Physical Measurements</h3>
-      <p>Technical studies in physical and chemical measurements. Very extensive - includes topics such as Programming, Fluid Dynamics, Thermodynamics, Optics, Acoustics, Organic and Minereal Chemistry...</p>
+    <div class="skill-wrapper text-center">
+      <div class="skill-box">
+        <h2>PhD</h2>
+        <i>{% include uni-kansas.svg %}</i>
+        <h3>Pure Mathematics</h3>
+        <p>Doctoral studies, with an emphasis on higher dimensional algebraic structures Topological Quantum Field Theories. Higher Category Theory is also connected to quantum computing and linguistics, but the thesis' focus was on topology and quantum gravity.</p>
+      </div>
+      <div class="skill-box">
+        <h2>MSc</h2>
+        <i>{% include uni-luminy.svg %}</i>
+        <h3>Theoretical Physics</h3>
+        <p>General studies, with a specialization in mathematical structures of the standard model. Couses includes Special and General Relativity, Statistical Mechanics, Quantum Physics, Group Theory, Classical Mechanics and Lie Algebras...</p>
+      </div>
+      <div class="skill-box">
+        <h2>DUT</h2>
+        <i>{% include uni-reims.svg %}</i>
+        <h3>Physical Measurements</h3>
+        <p>Technical studies in physical and chemical measurements. Very extensive - includes topics such as Programming, Fluid Dynamics, Thermodynamics, Optics, Acoustics, Organic and Minereal Chemistry...</p>
+      </div>
     </div>
   </div>
 </section>
 
-<section class="main-page" id="about">
-  <div class="wrapper text-center">
-    <div>
-      <div class="space-line"></div>
-      <h1><span>Dany Majard</span></h1>
-      <p>
-        <img src="images\face.png" alt="" class="image-round">
-      </p>
-      <div>
-        <h2><span>A pure scientist, a speaker and a technician mixed in a single person.</span></h2>
-      </div>
-    </div>
-  </div>  
-</section>
 
   <script src="/js/jquery.js"></script>
 <script>window.slides = {"bootstrap":"Bootstrap","yeoman":"Yeoman","facebookdesign":"Facebook Design","foundation":"Foundation","ghtraining":"GitHub Training","adobeos":"Adobe Open Source","jekyllrb":"Jekyll","electron":"Electron","semanticui":"Semantic UI","microsoft":"Microsoft on GitHub"}</script>

@@ -15,8 +15,7 @@ $base-line-height: 1.5;
 $spacing-unit:     30px;
 
 $text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$background-color: white;
 
 $color-grey:       #828282;
 $color-purple:	   #4d004d;
@@ -29,7 +28,7 @@ $content-width:    1200px;
 $on-palm:          600px;
 $on-laptop:        1200px;
 
-$hero-image:		"../images/Math_shelf.jpg";
+$hero-image:		"../images/Hero-purple.jpg";
 
 // Use media queries like this:
 // @include media-query($on-palm) {
@@ -38,6 +37,8 @@ $hero-image:		"../images/Math_shelf.jpg";
 //         padding-left: $spacing-unit / 2;
 //     }
 // }
+
+
 @mixin media-query($device) {
     @media screen and (max-width: $device) {
         @content;
