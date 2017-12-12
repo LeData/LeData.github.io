@@ -13,10 +13,16 @@ description: > # this means to ignore newlines until "baseurl:"
   that will impact your success for good!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.ledata.science" # the base hostname & protocol for your site
-twitter_username: Mahrard
+twitter_username: LeData_science
 github_username:  LeData
 kaggle_username:  thepathofd
 linkedin_username: dany-majard
 
 # Build settings
 markdown: kramdown
+
+sass:
+    load_paths:
+        - _sass
+        - node_modules
+exclude: []
