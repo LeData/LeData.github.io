@@ -124,9 +124,9 @@
     position: relative;
 
     a {
-        text-decoration: none;
+        text-decoration: none !important;
         font-size: 1.4em;
-        color: white;
+        color: white !important;
         font-weight: bold;
         display: inline-block;
         padding-top: 15px;
@@ -334,4 +334,36 @@
             font-size: 18px;
         }
     }
+}
+
+.site-footer {
+    background-color: $brand-color;
+    color: white;
+
+    h1 {
+        text-shadow: .1em .1em .1em #000;
+        text-transform: capitalize;
+        -webkit-backface-visibility:hidden;
+        margin:90px auto 0 auto;
+        font-size: 4em;
+        font-weight: 700;
+        line-height: 60px;
+        max-width:910px;
+        @include media-query($on-palm) {
+            font-size: 2.5em;
+        }
+    }
+
+    h2 {
+        text-shadow: .1em .1em .1em #000;
+        -webkit-backface-visibility:hidden;
+        max-width:none;
+        font-weight:7300;
+        margin: 20px auto 10px;
+    }
+
+}
+
+.tawkchat-container {
+    background-color: $brand-color !important;
 }

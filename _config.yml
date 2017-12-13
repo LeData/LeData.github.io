@@ -9,7 +9,7 @@
 title: 'LeData.Science'
 email: d.majard@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Bringing more science to your company. Hire me to become more data driven and make decisions
+  Bring more science to your company. Become more data driven and make decisions
   that will impact your success for good!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.ledata.science" # the base hostname & protocol for your site

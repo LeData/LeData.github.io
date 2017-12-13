@@ -207,3 +207,18 @@ pre {
         }
     }
 }
+
+.icon-jekyll {
+    display: inline;
+
+    > svg {
+        display: inline-block;
+        height: 30px;
+        width: 75px;
+        vertical-align: middle;
+
+        path {
+            fill: white;
+        }
+    }
+}

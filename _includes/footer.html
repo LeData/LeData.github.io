@@ -1,5 +1,49 @@
 <footer class="site-footer">
-	        
-<p style="svg {fill=$color-grey;}">This website was built using Jekyll {% include icon-github.html username="jekyll" %}</p>
 
+  <div class="wrapper text-center">
+
+    <h2 class="footer-heading">{{ site.title | escape }}</h2>
+
+    <div class="footer-col-wrapper">
+
+      <div class="footer-col footer-col-1">
+       	<ul>
+        {% if site.github_username %}
+        <li class='nav-social'>
+          <a href="https://github.com/{{ site.github_username }}" target="_blank"><span class="icon">{% include icon-github.svg %}</span></a>
+        </li>
+        {% endif %}
+
+        {% if site.twitter_username %}
+        <li class='nav-social'>
+          <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank"><span class="icon">{% include icon-twitter.svg %}</span></a>
+        </li>
+        {% endif %}
+
+        {% if site.kaggle_username %}
+        <li class='nav-social'>
+          <a href="https:/kaggle.com/{{ site.kaggle_username }}" target="_blank"><span class="icon">{% include icon-kaggle.svg %}</span></a>
+        </li>
+        {% endif %}
+
+        {% if site.linkedin_username %}
+        <li class='nav-social'>
+          <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank"><span class="icon">{% include icon-linkedin.svg %}</span></a>
+        </li>
+        {% endif %}
+        
+        {% if site.email %}
+        <li class='nav-social'>
+          <a href="mailto:{{ site.email}}?Subject=We%20need%20you%20to%20work%20for%20us."><span class="icon">{% include icon-email.svg %}</span></a>
+        </li>
+        {% endif %}
+      </ul>
+      </div>
+
+      <div>
+        Website made using <a href="https://jekyllrb.com/" target="_blank"><span class="icon-jekyll">{% include icon-jekyll.svg %}</span></a>.
+      </div>
+    </div>
+
+  </div>
 </footer>
