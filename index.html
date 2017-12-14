@@ -42,6 +42,13 @@ layout: default
           <a href="mailto:{{ site.email}}?Subject=We%20need%20you%20to%20work%20for%20us."><span class="icon">{% include icon-email.svg %}</span></a>
         </li>
         {% endif %}
+
+        {% if site.cv %}
+        <li class='nav-social'>
+          <a href="./portfolio/D-Majard_CV_{{ site.cv }}.pdf" target="_blank"><span class="icon">{% include icon-cv.svg %}</span></a>
+        </li>
+        {% endif %}
+
       </ul>
     </nav>
   </div>
