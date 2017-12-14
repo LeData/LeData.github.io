@@ -82,7 +82,6 @@
     justify-content: center;
 
     h1 {
-        text-align:center;
         text-shadow: .1em .1em .1em #000;
         text-transform: capitalize;
         -webkit-backface-visibility:hidden;
@@ -90,7 +89,6 @@
         font-size: 4em;
         font-weight: 700;
         line-height: 60px;
-        max-width:910px;
         @include media-query($on-palm) {
             font-size: 2.5em;
         }
@@ -100,7 +98,7 @@
         text-shadow: .1em .1em .1em #000;
         -webkit-backface-visibility:hidden;
         max-width:none;
-        font-weight:7300;
+        font-weight:700;
         margin: 20px auto 60px;
     }
 }
