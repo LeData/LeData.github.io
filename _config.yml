@@ -18,6 +18,8 @@ github_username:  LeData
 kaggle_username:  thepathofd
 linkedin_username: dany-majard
 cv: Dec2017
+google_analytics: UA-111318742-1
+publish: True
 
 # Build settings
 markdown: kramdown
