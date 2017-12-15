@@ -19,7 +19,7 @@ kaggle_username:  thepathofd
 linkedin_username: dany-majard
 cv: Dec2017
 google_analytics: UA-111318742-1
-publish: True
+publish: true
 
 # Build settings
 markdown: kramdown
