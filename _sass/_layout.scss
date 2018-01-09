@@ -347,6 +347,10 @@
 
 .site-footer {
     background-color: $brand-color;
+    background-image: url($hero-image);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     color: white;
 
     h1 {
